@@ -7,9 +7,9 @@
 <template>
 
     <div class="container">
-        <div class="card-image">
-            <img src="../assets/img/nitro.jpeg" alt="Foto">
-        </div>
+
+            <img src="../../assets/img/nitro.jpeg" alt="Foto">
+
     </div>
 
 </template>
@@ -17,19 +17,22 @@
 <style scoped>
 
     .container{
-        width: 800px;
-        margin: auto;
-        margin-top: 20px;
         display: flex;
         justify-content: center;
-        border: 1px solid blue;
+        width: 800px;
+        height: calc(100% - (50px + 70px));
+        margin: auto;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        border: 1px solid black;
     }
     .card-image{
-        width: 50px;
-        height: 50px;
+        width: 200px;
     }
     img{
         width: 100%;
+        margin: 5px;
+        border-radius: 10px;
     }
 
 </style>
