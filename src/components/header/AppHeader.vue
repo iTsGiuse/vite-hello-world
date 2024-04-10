@@ -1,6 +1,6 @@
 <script>
     export default {
-        name: 'AppHeader'
+        name: 'AppHeader',
     }
 </script>
 
@@ -11,8 +11,15 @@
 </template>
 
 <style scoped>
+
     header{
+        display: flex;
+        justify-content: center;
         height: 70px;
+        background-color: grey;
+    }
+    h1{
         text-align: center;
     }
+    
 </style>
