@@ -4,10 +4,10 @@
         
         data() {
             return {
-                author: 'Giuse',
+                author: 'By Giuse',
             }
         }
-        
+
     }
 </script>
 

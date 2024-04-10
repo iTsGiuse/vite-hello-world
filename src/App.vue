@@ -1,5 +1,5 @@
 <script>
-  /* CHIEDERE COSA CAMBIA TRA SCRIPT E SCRIPT SETUP  */
+
   import AppHeader from './components/header/AppHeader.vue';
   import AppMain from './components/main/AppMain.vue';
   import AppFooter from './components/footer/AppFooter.vue';
@@ -23,5 +23,11 @@
 </template>
 
 <style>
-
+  
+  *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  
 </style>
