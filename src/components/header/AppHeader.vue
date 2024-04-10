@@ -15,11 +15,9 @@
     header{
         display: flex;
         justify-content: center;
+        align-items: center;
         height: 70px;
         background-color: grey;
-    }
-    h1{
-        text-align: center;
     }
     
 </style>
