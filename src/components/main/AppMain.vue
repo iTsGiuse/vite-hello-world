@@ -20,6 +20,9 @@
         width: 800px;
         margin: auto;
         margin-top: 20px;
+        display: flex;
+        justify-content: center;
+        border: 1px solid blue;
     }
     .card-image{
         width: 50px;
